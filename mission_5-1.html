@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>mission5-1</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="calculator">
+            <div>
+            <input readonly id="result" type="text" value="0" style="text-align: right;">
+            </div>
+            <div>
+                <button onclick="c_click()" style="width: 80px;">C</button>
+                <button onclick="equal_click()" style="width: 80px;">=</button>
+            </div>
+            <div>
+                <button onclick="num_click(this.innerHTML)" style="width: 40px;">7</button>
+                <button onclick="num_click(this.innerHTML)" style="width: 40px;">8</button>
+                <button onclick="num_click(this.innerHTML)" style="width: 40px;">9</button>
+                <button onclick="num_click(this.innerHTML)" style="width: 30px;">÷</button>
+            </div>
+            <div>
+                <button onclick="num_click(this.innerHTML)" style="width: 40px;">4</button>
+                <button onclick="num_click(this.innerHTML)" style="width: 40px;">5</button>
+                <button onclick="num_click(this.innerHTML)" style="width: 40px;">6</button>
+                <button onclick="num_click(this.innerHTML)" style="width: 30px;">×</button>
+            </div>
+            <div>
+                <button onclick="num_click(this.innerHTML)" style="width: 40px;">1</button>
+                <button onclick="num_click(this.innerHTML)" style="width: 40px;">2</button>
+                <button onclick="num_click(this.innerHTML)" style="width: 40px;">3</button>
+                <button onclick="num_click(this.innerHTML)" style="width: 30px;">-</button>
+            </div>
+            <div>
+                <button onclick="num_click(this.innerHTML)" style="width: 85px;">0</button>
+                <button onclick="num_click(this.innerHTML)" style="width: 40px;">.</button>
+                <button onclick="num_click(this.innerHTML)"style="width: 30px;">+</button>
+            </div>
+        </div>
+    </div>
+    <script src="mission_5-1.js"></script>
+</body>
+</html>
